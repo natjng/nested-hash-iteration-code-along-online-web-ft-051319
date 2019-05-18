@@ -17,7 +17,7 @@ require 'pry'
 def remove_strawberry(contacts)
   #contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift #or .delete("strawberry")
   #or
-  contacts.each do |contact, person, contact_details_hash|
+  contacts.each do |person, contact_details_hash|
     binding.pry
     
     # data.each do |attribute, value|
