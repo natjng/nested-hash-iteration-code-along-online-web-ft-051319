@@ -15,6 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
+  binding.pry
   contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete_if{|v| v=="strawberry"}
   # contacts.each do |person, contact_details_hash|
   #   contact_details_hash.each do |attribute, data|
